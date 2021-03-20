@@ -54,6 +54,16 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+canvas {
+  display: block;
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -121,6 +131,7 @@ body {
     width: var(--w);
     height: var(--h);
     margin: auto;
+    padding: center;
     border-width: 3px;
     border-style: none;
     animation: b 9s linear infinite forwards;
@@ -128,6 +139,19 @@ body {
     position: relative;
     overflow: hidden;
     background-image: radial-gradient(rgba(0, 0, 0, 0.11) 65%,rgba(148, 13, 144, 0.99) 100%);
+    
+
+  
+    
+    background-image: url("../assets/img/appIcon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    
+    
+    
+    
 }
 .l{
     &::after,

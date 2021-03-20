@@ -15,7 +15,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        <link href='https://fonts.googleapis.com/css?family=Noto+Serif:700,700italic' rel='stylesheet' type='text/css'>
+
+        
+        
     </head>
+    
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -34,6 +40,7 @@
             
             <div class="wall">
   <div class="c">
+      <canvas></canvas>
     <span class="l"></span>
     <span class="b">
       <i></i>
@@ -43,8 +50,19 @@
 </div>
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Surprise!</h2>
-                    <h3 class="section-subheading text-muted">The earliest 99 users of knowing the future world are able to recieve a random digital organism from the futre garden.</h3>
+                    <!--<h2 class="section-heading text-uppercase">Mission</h2>-->
+                    
+                        <a class="btn btn-primary btn-xl" href="http://localhost:3000/s/weiru00">SEE THE MISSION</a>
+                    
+                    
+                    <h3 class="section-subheading text-muted">The earliest 99 users of knowing the future world are able to recieve a random digital organism from the future garden.</h3>
+                    
+               
+                    
+                    
+                
+                    
+                    
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
@@ -365,7 +383,11 @@
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+       <!-- <script src="scripts/scripts.js"></script>-->
+        <script src="scripts/main.js"></script>
     </body>
 </html>
 <script src="http://localhost:3000/studio/weiru00/assets/modules/channel-web/inject.js"></script>
+<script>
+  window.botpressWebChat.init({ host: 'http://localhost:3000/s/weiru00/assets/modules/channel-web/inject.js', botId: 'y' })
+</script>
